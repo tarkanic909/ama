@@ -2,7 +2,7 @@
   font-family: 'Myriad Pro';
   font-style: normal;
   font-weight: normal;
-  src: url("fonts/Myriad Pro Regular.ttf") format('ttf');
+  src: local('Myriad Pro'), url("fonts/Myriad Pro Regular-7ac043ce58c2e61adcf7ebac9625d31b.ttf");
 }
 html,
 body,
@@ -202,6 +202,7 @@ section {
 }
 .compability {
   color: #666;
+  background-color: #e5e5e5;
   line-height: 1.5em;
 }
 @media (min-width: 768px) {
@@ -421,7 +422,7 @@ section {
   right: 0;
 }
 .header__logo {
-  font-family: 'Myriad Pro';
+  font-family: "Myriad Pro";
   font-size: 3.75rem;
   float: left;
 }
@@ -590,7 +591,7 @@ section {
 .gallery__like {
   padding-left: 30px;
   line-height: 88px;
-  background: url(images/heart.png) no-repeat;
+  background: url(images/heart-3f9b495648e3ff687f4ca308ec98b7c4.png) no-repeat;
   background-position: 0 2px;
   color: #008ed8;
   font-size: 1.5rem;
@@ -683,7 +684,7 @@ section {
 }
 .slider {
   padding-top: 60px;
-  background: url(images/slider-bg.jpg);
+  background: url(images/slider-bg-3c206de9245f9b837f3615e767c11e0c.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -749,11 +750,11 @@ section {
 }
 .cta-button--app {
   margin-top: 1.3125em;
-  background: url(images/icon-app-store.png) no-repeat;
+  background: url(images/icon-app-store-fdc167ee2d2823f4c704204e2916157b.png) no-repeat;
   background-position: 20px center;
 }
 .cta-button--play {
-  background: url(images/icon-play-store.png) no-repeat;
+  background: url(images/icon-play-store-e00e6be87d01b12487ea4afdbcd5c9b5.png) no-repeat;
   background-position: 20px center;
 }
 .paginator {
